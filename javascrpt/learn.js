@@ -85,10 +85,15 @@
 // let x = pro(200 , 2.5 , 40 );
 
 // console.log(x*2/30)
-function calcage(age){
-    let result = age * 365;
-    let harts = result * 24;
-    let A = document.write(`<h3>your age in days is ${result} and your age in hards is ${harts}</h3>`)
-}
-let x = document.getElementById(age)
-calcage(x)
+// ---------------------------------------
+// function calcage(age){
+//     let result = age * 365;
+//     let harts = result * 24;
+//     let A = document.write(`<h3>your age in days is ${result} and your age in hards is ${harts}</h3>`)
+// }
+// calcage(window.prompt())
+// ------------------------------------------
+let x = 5
+ console.log(x)
+
+ 
