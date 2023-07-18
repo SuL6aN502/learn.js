@@ -92,8 +92,88 @@
 //     let A = document.write(`<h3>your age in days is ${result} and your age in hards is ${harts}</h3>`)
 // }
 // calcage(window.prompt())
-// ------------------------------------------
-let x = 5
- console.log(x)
+// ----------------------------------------------------//
 
- 
+// document.write(x);
+// let x = 5;
+
+
+
+
+
+// -------------------------------------------------------------------------------//
+// function x(){
+//     function y(){return 1};
+//     return y();
+//     function y(){return 0};
+// }
+
+// console.log(x());
+// ---------------------------------------------------------------------
+// let sultan = {
+//     firstname:'sultan',
+//     lastname:'aldossry',
+//     emali:'gbj6420@gmail.com',
+//     age:17
+// }
+
+// console.log(sultan.firstname);
+
+// function isuseractev(){
+//     if(sultan.age === 17){
+//         return true;
+//     }
+//     else{
+//         return `error`
+//     }
+// }
+// console.log(isuseractev())
+
+
+
+// --------------------------------------------------------------------------------
+// function a(){
+// for(var i =0; i < 3;i++){
+//     setTimeout(function log(){
+//         console.log(i);
+//     }, i * 1000 );
+// }
+
+// }
+// cbrt تعني ايجاد الجذر التكعيبي للعنصر
+// sqrt تعني ايجاد الجذر التربيعي للعنصر
+// console.log(a())
+
+// 'use strict';
+// function cubicRoot(num) {
+//     return Math.cbrt(num);
+//  }
+// console.log(cubicRoot(27)) 
+
+
+// let user = {
+//     name3 :'sultan',
+//     age3 : '17',
+//     getname3:function(){
+//         return `hello ${user.name}`;
+//     }
+// }
+
+// let user2 = {
+//     name2 :'salm',
+//     age2 : '19',
+//     getname2:function(){
+//         return `hello ${this.name}`;
+//     }
+// }
+// let user3 = {
+//     name1 :'saad',
+//     age1 : '57',
+//     getname1:function(){
+//         return `hello ${this.name}`;
+//     }
+// }
+
+// let users = Object.assign(user,user2,user3);
+
+// console.log(users)
