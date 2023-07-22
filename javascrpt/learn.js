@@ -177,3 +177,14 @@
 // let users = Object.assign(user,user2,user3);
 
 // console.log(users)
+
+
+// ------------DOM---------------------------------DOM--------------------------
+
+let head = document.getElementById("ti");
+let headc = document.getElementsByClassName('ti')[0];
+let headt = document.getElementsByTagName('h1')[0];
+let headq = document.querySelector('.ti').innerHTML;
+console.log(headq);
+
+
