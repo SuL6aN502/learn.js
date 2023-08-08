@@ -19,6 +19,12 @@
 // else{console.log(`thes is not a number`)}
 // let name = ["sultan","sultan","sultan" ,"sultan" ,"sultan" ,"sultan","sultan","sultan","sultan","sultan"];
 
+// const cssesc = require("cssesc");
+
+// const { string } = require("postcss-selector-parser")
+
+// const { name } = require("commander")
+
 // for (let num = 1; num <= 10; num++)
 // for (let d = 0; d < 12; d++)
 // console.log(name[d]+num)
@@ -95,7 +101,7 @@
 // ----------------------------------------------------//
 
 // document.write(x);
-// let x = 5;
+// var x = 5;
 
 
 
@@ -181,10 +187,59 @@
 
 // ------------DOM---------------------------------DOM--------------------------
 
-let head = document.getElementById("ti");
-let headc = document.getElementsByClassName('ti')[0];
-let headt = document.getElementsByTagName('h1')[0];
-let headq = document.querySelector('.ti').innerHTML;
-console.log(headq);
+// let head = document.getElementById("ti");
+// let headc = document.getElementsByClassName('ti')[0];
+// let headt = document.getElementsByTagName('h1')[0];
+// let headq = document.querySelector('.ti').innerHTML;
+// console.log(headq);
+// let sultan = document.getElementById("A");
+
+// console.log(sultan.outerText)
+// console.log('welcome to JavaScript course')
+// let x = document.getElementById('name');
+
+// x.addEventListener('click' ,function(){
+//     document.write('<h1>lorem</h1>')
+// });
+// let calc = document.getElementById('btm');
+// let num = 1
+// window.onload = function(){
+//     document.body.style.backgroundColor= 'blue';
+// };
+// calc.onfocus = function(){
+//     this.style.backgroundColor= 'blue';
+// };
+// calc.onblur = function(){
+// this.style.backgroundColor= 'red';
+// };
+// let i = document.getElementById('btm');
+// i.addEventListener('click' ,function(){
+//     console.log('<h1>lorem</h1>')
+// })
+// let o = document.getElementById('btm1');
+// o.onmousemove = function(){
+//     console.log('<h1>lorem</h1>')
+// }
+// function i(){
+//     document.write(`<h1>hello ${x}</h1>`)
+// }
+// x.addEventListener('input' , console.log(i()))
 
 
+let ksa = document.getElementById('KSA');
+let usa = document.getElementById('USA');
+ksa.onkeyup = function(){
+    usa.value = ksa.value*3.75
+}
+usa.onkeyup = function(){
+    ksa.value = usa.value/3.75
+}
+// -----------------------------------------------الرخلة التعلمية------------------------------------------------------
+// let name = document.querySelector('.name')
+// if(name == string){
+// document.write(`<h1>hello ${name}</h1>`)
+// }
+// console.log(`hello sultan`)
+// console.log(`hello world`)
+// console.log(`hello hi hi`)
+// console.log(new Date().getDay());
