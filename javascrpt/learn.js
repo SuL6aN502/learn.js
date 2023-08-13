@@ -225,16 +225,77 @@
 // }
 // x.addEventListener('input' , console.log(i()))
 
+// ------------------------------------------------------------------------------
+// let ksa = document.getElementById('KSA');
+// let usa = document.getElementById('USA');
+// ksa.onkeyup = function(){
+//     usa.value = ksa.value*3.75;
+// }
+// usa.onkeyup = function(){
+//     ksa.value = usa.value/3.75;
+// }
+// document.write(Number.MAX_VALUE)
+// ----------------------------------------
+// let after = document.getElementById('after')
+// let before = document.getElementById('before')
+// let inside = document.getElementById('inside')
+// let content = document.getElementById('content')
+// let contener = document.getElementById('contener')
+// contener.style.backgroundColor = 'blue'
+// contener.style.height = '80px'
+// after.onclick = function(){
+//     contener.after(content)
+// }
+// before.onclick = function(){
+//     contener.before(content)
+// }
+// inside.onclick = function(){
+//     contener.append (content)
+// }
+// let btmbopen = document.getElementById('open')
+// let btmclose = document.getElementById('close')
+// let contener = document.getElementById('contener')
 
-let ksa = document.getElementById('KSA');
-let usa = document.getElementById('USA');
-ksa.onkeyup = function(){
-    usa.value = ksa.value*3.75
-}
-usa.onkeyup = function(){
-    ksa.value = usa.value/3.75
-}
-// -----------------------------------------------الرخلة التعلمية------------------------------------------------------
+// btmclose.onclick = function(){
+//     contener.classList.add('hide');
+//     btmclose.classList.add('hide');
+//     btmbopen.classList.remove('hide');
+// }
+// btmbopen.onclick = function(){
+//     contener.classList.remove('hide');
+//     btmclose.classList.remove('hide');
+//     btmbopen.classList.add('hide');
+// }
+// ------------------------------------الكتابة تأثير---------------------------------------
+
+
+
+
+// let i = 0;
+// let txt = 'مؤتمت';
+// let speed = 300;
+// let tit = document.getElementById('tit') 
+// function typing(){
+//     if(i < txt.length){
+//         tit.innerHTML += txt.charAt(i);
+//         i++;
+        // setTimeout(typing , speed);
+        
+//     }
+// }
+
+// ------------------------------------الكتابة تأثير---------------------------------------
+// ---------------------get-time-----------------------------
+
+    // x is a id of item in html
+// let p = document.getElementById('x')
+    // thes code for get year
+// let txt = new Date().getFullYear(); 
+// function year(){
+//     p.innerHTML += txt;
+// }
+// ---------------------get-time-----------------------------
+// ---------------------------الرخلة التعلمية------------------------------------------------------
 // let name = document.querySelector('.name')
 // if(name == string){
 // document.write(`<h1>hello ${name}</h1>`)
@@ -243,3 +304,60 @@ usa.onkeyup = function(){
 // console.log(`hello world`)
 // console.log(`hello hi hi`)
 // console.log(new Date().getDay());
+// for(let i = 0 ; i<1;)
+// {console.log(i);}
+
+// {
+    // let name = 'ali';
+    // console.log('1',name)
+    // }
+    // console.log('2',name)
+    // console.log(1);
+    // console.log(Symbol());
+    // console.log(true);
+    // console.log('');
+    // console.log(null);
+    // console.log(undefined);
+// console.log(Number.MAX_VALUE >= Infinity);
+// let tuwaiq = 10 //integer type 
+// let tuwaiq_academy = 91n // double type
+
+// console.log("integer type:", tuwaiq)
+// console.log(typeof tuwaiq)
+// console.log("double type:", tuwaiq_academy)
+// console.log(typeof tuwaiq_academy)
+// let a1 = 'hello world';
+// let a2 = "hello world";
+// let a3 = 'hello "world"';
+// let a4 = "hello 'world'";
+// let a5 = `hello world`;
+// let a6 = `hello ${a3} world \`world\` world`;
+// let a7 = `2`-1;
+// console.log(a1);
+// console.log(a2);
+// console.log(a3);
+// console.log(a4);
+// console.log(a5);
+// console.log(a6);
+// console.log(typeof a7);
+// let x = '100';
+// let y = '10';
+// for (let i = 0; i < a6.length; i++) {
+// console.log(a6.charAt(i));
+    
+// }
+
+// console.log(typeof);
+
+// let x = 'java scrpt languuge' ; 
+
+// console.log(x.length);
+// console.log('test'.length);
+
+// console.log(x.charAt(0));
+// console.log('abc' .charAt(1));
+// console.log(x.slice(0,4));
+// console.log('test'.slice(1,3));
+
+// console.log(x.split(' '));
+// console.log('192.168.1.1'.split(0,4));
