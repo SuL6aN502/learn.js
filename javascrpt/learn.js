@@ -361,3 +361,46 @@
 
 // console.log(x.split(' '));
 // console.log('192.168.1.1'.split(0,4));
+
+
+// console.log('8650'-'134');
+
+
+
+function User(id, username,salary){
+this.i = id;
+this.u = 'Dr '+username;
+this.s =salary+1000;
+}
+let user1 = new User(100,'sultan',5000)
+let user2 = new User(101,'ahmed',6000)
+let user3 = new User(102,'saad',7000)
+
+console.log('--------------');
+console.log(user1.i);
+console.log(user1.u);
+console.log(user1.s);
+console.log('--------------');
+console.log(user2.i);
+console.log(user2.u);
+console.log(user2.s);
+console.log('--------------');
+console.log(user3.i);
+console.log(user3.u);
+console.log(user3.s);
+console.log('--------------');
+// const user1 = {
+//     id:100,
+//     username:'SuL6aN',
+//     salary:5000,
+// }
+// const user2 = {
+//     id:101,
+//     username:'Ahmed',
+//     salary:6000,
+// }
+// const user3 = {
+//     id:100,
+//     username:'saad',
+//     salary:7000,
+// }
