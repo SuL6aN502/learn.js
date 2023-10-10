@@ -367,40 +367,92 @@
 
 
 
-function User(id, username,salary){
-this.i = id;
-this.u = 'Dr '+username;
-this.s =salary+1000;
-}
-let user1 = new User(100,'sultan',5000)
-let user2 = new User(101,'ahmed',6000)
-let user3 = new User(102,'saad',7000)
+// class User {
+//     constructor(id, username, salary) {
+//         this.i = id;
+//         this.u = 'Dr ' + username;
+//         this.s = salary + 1000;
+//     }
+//     update(newname){
+//         this.s = new newname;
+//     }
+// }
+// let user1 = new User(100,'sultan',5000)
+// let user2 = new User(101,'ahmed',6000)
+// let user3 = new User(102,'saad',7000)
 
-console.log('--------------');
-console.log(user1.i);
-console.log(user1.u);
-console.log(user1.s);
-console.log('--------------');
-console.log(user2.i);
-console.log(user2.u);
-console.log(user2.s);
-console.log('--------------');
-console.log(user3.i);
-console.log(user3.u);
-console.log(user3.s);
-console.log('--------------');
-// const user1 = {
-//     id:100,
-//     username:'SuL6aN',
-//     salary:5000,
+// console.log('--------------');
+// console.log(user1.i);
+// console.log(user1.u);
+// console.log(user1.s);
+// console.log('--------------');
+// console.log(user2.i);
+// console.log(user2.u);
+// console.log(user2.s);
+// console.log('--------------');
+// console.log(user3.i);
+// console.log(user3.u);
+// console.log(user3.s);
+// console.log('--------------');
+// console.log( user1 instanceof User);
+// console.log( user1.constructor === User);
+// // const user1 = {
+// //     id:100,
+// //     username:'SuL6aN',
+// //     salary:5000,
+// // }
+// // const user2 = {
+// //     id:101,
+// //     username:'Ahmed',
+// //     salary:6000,
+// // }
+// // const user3 = {
+// //     id:100,
+// //     username:'saad',
+// //     salary:7000,
+// // }
+
+
+
+// class userCountM extends userCount{
+//     constructor(name,age,id){
+//         super(name,age,id);
+//     }
+//     static M(){
+//         let year = new Date().getFullYear();
+//         return year - userM.age;
+//     }
 // }
-// const user2 = {
-//     id:101,
-//     username:'Ahmed',
-//     salary:6000,
-// }
-// const user3 = {
-//     id:100,
-//     username:'saad',
-//     salary:7000,
-// }
+
+// let userM = new userCountM('sultan',17,101);
+// let historyM = userCountM.M();
+
+// let user_inter = [userM,historyM]
+// console.log(user_inter);
+// console.log('---------------------------------------------------------');
+// let user1 = new userCount('sultan',17,101,17);
+// let hj = userCount.hj;
+// console.log(userCount);
+// console.log(user1);
+// console.log(hj());
+
+
+class userCount{
+    #id
+    constructor(name,age,id){
+        this.name = name;
+        this.age = age;
+        this.#id = id;
+    }
+    history(){
+        let Hjr_Birth = this.age - new Date().getFullYear;
+        let AD_Birth = this.age - new Date().getFullYear - 578;
+        console.log(this.age);
+        console.log(new Date().getFullYear());
+        console.log(Hjr_Birth);
+        console.log(AD_Birth);
+    }
+}
+let user_1 = new userCount('sultan',17,101);
+console.log(user_1);
+console.log(user_1.history());
