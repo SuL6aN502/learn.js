@@ -436,23 +436,23 @@
 // console.log(user1);
 // console.log(hj());
 
-
+// ---------------------خدمه من خدمات حاسبه التاريخ---------------------------------
 class userCount{
     #id
-    constructor(name,age,id){
-        this.name = name;
+    constructor(age,birth){
         this.age = age;
-        this.#id = id;
+        this.birth = birth;
     }
     history(){
-        let Hjr_Birth = this.age - new Date().getFullYear;
-        let AD_Birth = this.age - new Date().getFullYear - 578;
-        console.log(this.age);
-        console.log(new Date().getFullYear());
-        console.log(Hjr_Birth);
-        console.log(AD_Birth);
+        let Hjr_Birth = new Date().getFullYear() - this.age;
+        let AD_Birth =new Date().getFullYear() - 578 - this.age;
+        let birth = [Hjr_Birth,AD_Birth];
+        return birth;
     }
 }
-let user_1 = new userCount('sultan',17,101);
+let history = new Date().getUTCFullYear();
+let user_1 = new userCount(17,history);
+
+console.log(history);
 console.log(user_1);
 console.log(user_1.history());
