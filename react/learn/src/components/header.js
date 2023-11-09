@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Todo extends Component {
-    render(){
+function header(){
         return (
             <header>
                 <h1 style={{color:'red'}}>header!</h1>
             </header>
         );
-   }
 }
 
-export default Todo;
+export default header;

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Todo from './components/Todo';
 import './App.css';
-
+import SocialItem from './components/socialItem';
 class App extends Component {
   render(){
-  return (
-    <Todo />
-    );
+    return (
+      <div>
+        <SocialItem />
+      </div>
+      );
   }
 }
 
