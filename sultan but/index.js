@@ -1,9 +1,14 @@
-const { Client, Events, GatewayIntentBits } = require('discord.js');
-const { TOKEN } = require('./jsom/config.json');
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+import {Client} from "discord.js"
+const client = new Client({
+    intents:[]
+})
+  
 
-client.once(Events.ClientReady, c => {
-	console.log(`Ready! Logged in as ${c.user.tag}`);
-});
 
-client.login(TOKEN);
+// client.on('ready!',()=>{
+//     console.log('ready');
+// })
+
+client.login('MTE3MjA3NjI5Nzg5MjEzNDkxMg.GUsPfx.eylvG50NK2_4X20zWPubcJUKaYxPmQd0WhVyJA').then(()=>{
+    console.log('ready!')
+}).catch(console.error);

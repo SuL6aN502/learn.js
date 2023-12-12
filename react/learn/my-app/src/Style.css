@@ -1,0 +1,22 @@
+*{
+    font-family: 'Reem Kufi', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body i{
+    transition: 3000ms;
+    -webkit-transition: 3000ms;
+    -moz-transition: 3000ms;
+    -ms-transition: 3000ms;
+    -o-transition: 3000ms;
+    color: red;
+}
+body i:hover{
+    zoom: 2;
+}
